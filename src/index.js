@@ -1,6 +1,6 @@
 import _ from "lodash";
 import "./style.css";
-import SliceOfCakesSpriteSheet from "./Spritesheet_Cakes_WITH_OUTLINE.png";
+import SliceOfCakesSpriteSheet from "./spritesheet-cakes-with-outline.png";
 import CakeTileset from "./cake-tileset.png";
 import AppleIcon from "./apple-touch-icon.png";
 import AndroidIcon from "./favicon-32x32.png";
