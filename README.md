@@ -1,2 +1,3 @@
 # happyBirthdayNoobProject
-just basic static web app
+
+it's a present for my teacher LOLENG
