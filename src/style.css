@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+    	padding: 0;
+    	box-sizing: border-box;
+}
+body, html {
+    	width: 100%;
+    	height: 100%;
+    	overflow: hidden;
+  background-color: rgba(10, 12, 18, 1); 
+  
+  /* The radial radiance effect */
+  background-image: radial-gradient(
+    circle at center,
+    rgba(255, 255, 255, 0.8) 0%,    /* Vibrant, bright core */
+    rgba(255, 255, 255, 0.15) 30%,  /* Smooth light bleed */
+    rgba(15, 20, 35, 0.4) 65%,      /* Transitional dark mist */
+    rgba(0, 0, 0, 0.9) 100%         /* Deep falloff edge */
+  );font-family: sans-serif;
+}
+canvas {
+    display: block;
+    overflow: hidden;
+    background-color: transparent;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transition: all .3s;
+}
