@@ -332,7 +332,7 @@ function favicons()
 	link3.rel = "manifest";
 	link3.href = Webmanifest;
 
-	return [link0, link1, link2, link3];
+	document.head.append(link0, link1, link2, link3);
 }
 
 
@@ -345,11 +345,9 @@ function favicons()
 		if (loaded === 2) animate();
 	}
 
-	for (let i = 0; i < 4; i++) {
-		document.head.appendChild(favicons()[i]);
-	}
-
 	cakeSheet.onload = loader;
 	cakeTileset.onload = loader;
+
+	favicons();	
 })();
 
